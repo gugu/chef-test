@@ -1,0 +1,26 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: centos-7.1
+
+suites:
+  - name: default
+    run_list:
+      - "recipe[app]"
+    attributes:
+      nginx:
+        default_site_enabled: false
+      auth:
+        pam:
+          passwdqc: disable
+      jenkins:
+        master:
+          listen_address: "127.0.0.1"
+          jenkins_args: "--prefix=/jenkins"
+      java:
+        jdk_version: 7

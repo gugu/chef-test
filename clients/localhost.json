@@ -1,0 +1,7 @@
+{
+  "name": "localhost",
+  "admin": true,
+  "validator": true,
+  "create_key": true,
+  "public_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1uS7w+i4vWJSJxQL04lI\npr38GjvZxWDih5OWWMyzip+M2xHG264Znd6p8Swj1/5wjAEkd+287MFg7hLnLwJY\ndi/ptU59n3XxSec7tKo+/iVT0B0/RsO/8JyUIlqIEkTpav1jRDi5+h4pgxLiF4Zc\nzI349+ckm9Jj0XfKWgcT5JbNQc+iNIpzwwt+uFZ/Qx+HPSsFzpAWdsqYVyqzhpy+\nUxg/Nv3Xu9o7JckEtwXYoPP9vjyVuTAwO4u23JOWsd0RiiJIRtPevOShvFh8dadc\nW95SPaT2soIMYRHDPNCq+k0HSNyXXWMrCEPQq/wk4bu43OcYR7PqYydFdaeykcBS\nfQIDAQAB\n-----END PUBLIC KEY-----\n"
+}

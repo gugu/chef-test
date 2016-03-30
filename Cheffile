@@ -1,0 +1,8 @@
+site "https://supermarket.getchef.com/api/v1"
+
+cookbook "java"
+cookbook "jenkins"
+cookbook "nginx"
+cookbook "php"
+cookbook 'os-hardening', '~> 1.3.1'
+cookbook 'app', path: 'my_cookbooks/app'
